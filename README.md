@@ -30,7 +30,8 @@ code/miscc/filenames.ipynbを使い、使用する画像の名前を"filenames.p
 これらをdata/○○/images/各々用意した画像、data/○○/train/にfilenames.pickleとskip-thought-embeddings.pickleを置く  
 以降は下のtrainingを参考に行う  
 
-実行してみるためのサンプルを用意しているのですぐに動作をなぞることができる。
+実行してみるためのサンプルを用意しているのですぐに動作をなぞることができる。  
+data/cat/images.tar.gzは解凍して使う
 
 
 
