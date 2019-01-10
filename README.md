@@ -23,8 +23,15 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 - `torchfile`
 
 **オリジナルのデータセット **  
+画像は自分が任意の物を用意する。
 code/miscc/filenames.ipynbを使い、使用する画像の名前を"filenames.pickle"にまとめる。  
-画像にテキストを適応されるのにはskipthoughtsを用いる。(code/miscc/skipthouths.ipynb)
+画像にテキストを適応されるのにはskipthoughtsを用いる。(code/miscc/skipthouths.ipynb)  
+これでskip-thought-embeddings.pickleが生成される。  
+これらをdata/○○/images/各々用意した画像、data/○○/train/にfilenames.pickleとskip-thought-embeddings.pickleを置く  
+以降は下のtrainingを参考に行う  
+
+実行してみるためのサンプルを用意しているのですぐに動作をなぞることができる。
+
 
 
 **Data**
