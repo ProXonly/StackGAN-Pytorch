@@ -22,8 +22,8 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 - `pandas`
 - `torchfile`
 
-**オリジナルのデータセット**
-code/miscc/filenames.ipynbを使い、使用する画像の名前を"filenames.pickle"にまとめる。
+**オリジナルのデータセット **  
+code/miscc/filenames.ipynbを使い、使用する画像の名前を"filenames.pickle"にまとめる。  
 画像にテキストを適応されるのにはskipthoughtsを用いる。(code/miscc/skipthouths.ipynb)
 
 
