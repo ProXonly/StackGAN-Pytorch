@@ -25,13 +25,15 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 **オリジナルのデータセット **  
 画像は自分が任意の物を用意する。
 code/miscc/filenames.ipynbを使い、使用する画像の名前を"filenames.pickle"にまとめる。  
-画像にテキストを適応されるのにはskipthoughtsを用いる。(code/miscc/skipthouths.ipynb)  
+画像にテキストを適応させるのにはskipthoughtsを用いる。(code/miscc/skipthouths.ipynb)  
 これでskip-thought-embeddings.pickleが生成される。  
 これらをdata/○○/images/各々用意した画像、data/○○/train/にfilenames.pickleとskip-thought-embeddings.pickleを置く  
 
 
 実行してみるためのサンプルを用意しているのですぐに動作をなぞることができる。  
 data/cat/images.tar.gzは解凍して使う
+ymlファイルで使用するデータのあるディレクトリや、その他の値の設定を行う。cocoを動かす場合はcocoのyml、catを動かす場合はcatのymlを動かせばよい。
+catは容量が少ないので試しに動かしてみたい人向けである。
 
 最後の任意のテキストで生成を行うsample.pickleファイルはskipのipynbファイルの最後で作り、testないに置く
 
