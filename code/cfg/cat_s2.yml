@@ -1,0 +1,30 @@
+CONFIG_NAME: 'stageII'
+
+DATASET_NAME: 'cat'
+EMBEDDING_TYPE: 'skip-thought'
+GPU_ID: '0,1'
+Z_DIM: 100
+STAGE1_G: '../output/cat3_stagei_1st/Model/netG_epoch_800.pth'
+DATA_DIR: '../data/cat2'
+WORKERS: 0
+IMSIZE: 256
+STAGE: 2
+TRAIN:
+    FLAG: True
+    BATCH_SIZE: 24
+    MAX_EPOCH: 5000
+    LR_DECAY_EPOCH: 20
+    SNAPSHOT_INTERVAL: 100
+    DISCRIMINATOR_LR: 0.0002
+    GENERATOR_LR: 0.0002
+    COEFF:
+      KL: 2.0
+
+GAN:
+    CONDITION_DIM: 128
+    DF_DIM: 64
+    GF_DIM: 128
+    R_NUM: 2
+
+TEXT:
+    DIMENSION: 4800
